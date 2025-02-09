@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"mitia@example.com\",\r\n    \"password\": \"password\"\r\n}\r\n",
+					"raw": "{\r\n    \"email\": \"miora@gmail.com\",\r\n    \"password\": \"password\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/register",
+					"raw": "http://127.0.0.1:8000/api/auth/login",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -33,7 +33,7 @@
 					"path": [
 						"api",
 						"auth",
-						"register"
+						"login"
 					]
 				}
 			},
@@ -46,7 +46,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"idToken\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgxYjUyMjFlN2E1ZGUwZTVhZjQ5N2UzNzVhNzRiMDZkODJiYTc4OGIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGVzdC0xMTcxNCIsImF1ZCI6InRlc3QtMTE3MTQiLCJhdXRoX3RpbWUiOjE3MzgxNjcyMDUsInVzZXJfaWQiOiJ1UkFvTGwyZzBYTzdPU0I4cDJyc256d2lGZG8xIiwic3ViIjoidVJBb0xsMmcwWE83T1NCOHAycnNuendpRmRvMSIsImlhdCI6MTczODE2NzIwNSwiZXhwIjoxNzM4MTcwODA1LCJlbWFpbCI6Im1pb3JhQGV4YW1wbGUuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbIm1pb3JhQGV4YW1wbGUuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.FjmIUAZM2NL22zX-fWEs_7sX5tPguxTqQXu3WWjWV48Xz0AezyZbbpaSIgfWBDlrdqxIVf00ZneWmEHZ9-WtN9cZrWziY7DhOFYBOr48ejVnO_w-LuR8UopMlUd0ESHGdaxWHwJj_RkZE-8Rg8O2Kq5v1J09Uj_hR4vd-YL1rMDBvkKv-E4AmrqyiZLYGyXXpHuBapEx4-wj5ajVwz693FH12U4NDXQtUPIQ41pq-Pr8Cx4AhDWMYLSIDx1MeZ0f7piz6oXrR0WCZgQ98h65Hbz31m3RNwMH5Bw4BJ9J9JYZK6R0deyLxJPB-wsxKjLDqsqShntlKr1e2LlgN-P77g\"\r\n}\r\n",
+					"raw": "{\r\n    \"idToken\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImE0MzRmMzFkN2Y3NWRiN2QyZjQ0YjgxZDg1MjMwZWQxN2ZlNTk3MzciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGVzdC0xMTcxNCIsImF1ZCI6InRlc3QtMTE3MTQiLCJhdXRoX3RpbWUiOjE3Mzg3MzE5NzYsInVzZXJfaWQiOiJ1UkFvTGwyZzBYTzdPU0I4cDJyc256d2lGZG8xIiwic3ViIjoidVJBb0xsMmcwWE83T1NCOHAycnNuendpRmRvMSIsImlhdCI6MTczODczMTk3NiwiZXhwIjoxNzM4NzM1NTc2LCJlbWFpbCI6Im1pb3JhQGV4YW1wbGUuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbIm1pb3JhQGV4YW1wbGUuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.RUJj3FMMLindfmXGN8yoCVktAzVgvOMbmT5SQzbvdZsJGKAY4CR6XaDp57k_6sPLR8tWb9AyU7TXqiwDf7grxLa0HPiF7gatGWbI_t6JyELD6Irui6ZvK1Ul0dv4oJX1osLd5xpaGmPGJQt-OWaETGYCoqGRU5tB_YKXEAkxszsXUcZ3wqjxspE1SLHO2EStssdxQoNCOrlRMdzdBPCzEsGQvWHA5aC50rgr6rSKmxoGegdQDjmoYV90NYJvauOWHeg9Y3PUd72rOnR0TvNIzVXAM49-r6kQvFkqNhcHTxlVDLw1IksVyeX13KdE1CztR5Z51WbkiApRhLYhEgJHXQ\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -79,7 +79,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"miora@example.com\",\r\n    \"password\": \"password\"\r\n}\r\n",
+					"raw": "{\r\n    \"email\": \"moi1@gmail.com\",\r\n    \"password\": \"password\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -225,7 +225,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/commande/4/edit",
+					"raw": "http://127.0.0.1:8000/api/commande/3/edit",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -237,7 +237,7 @@
 					"path": [
 						"api",
 						"commande",
-						"4",
+						"3",
 						"edit"
 					]
 				}
@@ -275,7 +275,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/commande/4/complete",
+					"raw": "http://127.0.0.1:8000/api/commande/4",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -287,8 +287,7 @@
 					"path": [
 						"api",
 						"commande",
-						"4",
-						"complete"
+						"4"
 					]
 				}
 			},
@@ -405,7 +404,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/commande/1/ingredients",
+					"raw": "http://127.0.0.1:8000/api/commande/2/ingredients",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -417,7 +416,7 @@
 					"path": [
 						"api",
 						"commande",
-						"1",
+						"2",
 						"ingredients"
 					]
 				}
@@ -469,6 +468,141 @@
 						"commande",
 						"1",
 						"cancel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API afficher recette",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/recettes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recettes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API show ingredient",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "API Passer commande User",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test User",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Push Notif Test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BIOkWcxGzN0StFHqd00bRTW8zSp6maVqq3vsMxuMpVSbUY-3OfWeNJNvjz6PvY_pZTwzMyd8hSAo158CZjpjt6g",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"to\": \"cQT366drSCWBU35qqGwkIn:APA91bGjQcPY_39VM37fEyvUmIVIDCh4tbLlVrSTjVl4BeAwso8QPPkdIVgcr1usHA-5NRtGJSaG09jyElyiw7pak-XJ_aiizNH8lFwTwQPg-0bIRFxnpXhKi1PrrbhTCzcLmA1UkQ6-\",\r\n  \"notification\": {\r\n    \"title\": \"🍽 Commande en préparation !\",\r\n    \"body\": \"Votre commande est en cours de préparation 🚀\",\r\n    \"sound\": \"default\"\r\n  },\r\n  \"data\": {\r\n    \"click_action\": \"FLUTTER_NOTIFICATION_CLICK\",\r\n    \"type\": \"commande\",\r\n    \"status\": \"preparation\"\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fcm.googleapis.com/fcm/send",
+					"protocol": "https",
+					"host": [
+						"fcm",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"fcm",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API stats",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "React Native Enregistrer commande",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user_id\": 1,\r\n  \"recette_id\": 3,\r\n  \"quantite\": 2\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.1.126:5000/api/commande/passer",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"126"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"commande",
+						"passer"
 					]
 				}
 			},
