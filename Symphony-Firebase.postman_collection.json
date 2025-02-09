@@ -1,0 +1,478 @@
+{
+	"info": {
+		"_postman_id": "758bf462-a1bc-43fe-beb5-1d21a997c028",
+		"name": "Symphony-Firebase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39184380"
+	},
+	"item": [
+		{
+			"name": "API Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"mitia@example.com\",\r\n    \"password\": \"password\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Verify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idToken\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgxYjUyMjFlN2E1ZGUwZTVhZjQ5N2UzNzVhNzRiMDZkODJiYTc4OGIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGVzdC0xMTcxNCIsImF1ZCI6InRlc3QtMTE3MTQiLCJhdXRoX3RpbWUiOjE3MzgxNjcyMDUsInVzZXJfaWQiOiJ1UkFvTGwyZzBYTzdPU0I4cDJyc256d2lGZG8xIiwic3ViIjoidVJBb0xsMmcwWE83T1NCOHAycnNuendpRmRvMSIsImlhdCI6MTczODE2NzIwNSwiZXhwIjoxNzM4MTcwODA1LCJlbWFpbCI6Im1pb3JhQGV4YW1wbGUuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbIm1pb3JhQGV4YW1wbGUuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.FjmIUAZM2NL22zX-fWEs_7sX5tPguxTqQXu3WWjWV48Xz0AezyZbbpaSIgfWBDlrdqxIVf00ZneWmEHZ9-WtN9cZrWziY7DhOFYBOr48ejVnO_w-LuR8UopMlUd0ESHGdaxWHwJj_RkZE-8Rg8O2Kq5v1J09Uj_hR4vd-YL1rMDBvkKv-E4AmrqyiZLYGyXXpHuBapEx4-wj5ajVwz693FH12U4NDXQtUPIQ41pq-Pr8Cx4AhDWMYLSIDx1MeZ0f7piz6oXrR0WCZgQ98h65Hbz31m3RNwMH5Bw4BJ9J9JYZK6R0deyLxJPB-wsxKjLDqsqShntlKr1e2LlgN-P77g\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/verify",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"verify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"miora@example.com\",\r\n    \"password\": \"password\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Commande New",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": 1,\r\n    \"montant_total\": 25.99\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/new",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Commande show",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Commande Details Commande",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Commande Edit Commande",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/4/edit",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"4",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Commande terminer commande",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/4/complete",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"4",
+						"complete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Commande supprimer commande",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/4/complete",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"4",
+						"complete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APi ajout Recette a Commande",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"recettes\": [\r\n        {\r\n            \"recette_id\": 1,\r\n            \"quantite\": 2\r\n        },\r\n        {\r\n            \"recette_id\": 3,\r\n            \"quantite\": 1\r\n        }\r\n    ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/1/add-recette",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"1",
+						"add-recette"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API recup recette d`une commande",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"recette_id\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/1/recettes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"1",
+						"recettes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API ajout auto des ingredients en fonction recette dans commande",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"recettes\": [\r\n        { \"recette_id\": 1, \"quantite\": 2 },\r\n        { \"recette_id\": 3, \"quantite\": 1 }\r\n    ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/1/add-recette",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"1",
+						"add-recette"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API List ingredients dans commande",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/1/ingredients",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"1",
+						"ingredients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Terniner une commande",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/1/complete",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"1",
+						"complete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Annulation commande",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/commande/1/cancel",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"commande",
+						"1",
+						"cancel"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

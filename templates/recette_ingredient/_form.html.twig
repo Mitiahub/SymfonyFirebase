@@ -1,0 +1,6 @@
+{{ form_start(form) }}
+    {{ form_row(form.recette, { 'label': 'Recette' }) }}
+    {{ form_row(form.ingredient, { 'label': 'Ingrédient' }) }}
+    {{ form_row(form.quantite, { 'label': 'Quantité' }) }}
+    <button class="btn btn-success">{{ button_label|default('Save') }}</button>
+{{ form_end(form) }}

@@ -1,0 +1,23 @@
+{{ form_start(form) }}
+    <div class="form-group">
+        <label for="status">Statut</label>
+        {{ form_row(form.status, { 'label': false }) }}
+    </div>
+    
+    <div class="form-group">
+        <label for="createdAt">Date de création</label>
+        {{ form_row(form.createdAt, { 'label': false }) }}
+    </div>
+    
+    <div class="form-group">
+        <label for="montantTotal">Montant total (€)</label>
+        {{ form_row(form.montantTotal, { 'label': false }) }}
+    </div>
+    
+    <div class="form-group">
+        <label for="utilisateur">Utilisateur</label>
+        {{ form_row(form.utilisateur, { 'label': false }) }}
+    </div>
+
+    <button type="submit" class="btn btn-success">{{ button_label|default('Enregistrer') }}</button>
+{{ form_end(form) }}

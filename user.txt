@@ -1,0 +1,9 @@
+{
+    "email": "admin@gmail.com",
+    "password": "admin123"
+}
+
+{
+    "email": "miora@gmail.com",
+    "password": "password"
+}

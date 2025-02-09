@@ -1,0 +1,19 @@
+{{ form_start(form) }}
+
+    <div class="form-group">
+        <label for="nom">Nom de l'ingrédient</label>
+        {{ form_row(form.nom, { 'label': false }) }}
+    </div>
+
+    <div class="form-group">
+        <label for="quantiteStock">Quantité en stock</label>
+        {{ form_row(form.quantiteStock, { 'label': false }) }}
+    </div>
+
+    <div class="form-group">
+        <label for="seuilMinimum">Seuil minimum</label>
+        {{ form_row(form.seuilMinimum, { 'label': false }) }}
+    </div>
+
+    <button type="submit" class="btn btn-success">{{ button_label|default('Save') }}</button>
+{{ form_end(form) }}

@@ -1,0 +1,13 @@
+http://127.0.0.1:8000/api/auth/register ( POST )
+
+user 
+{
+    "email": "miora@example.com",
+    "password": "password"
+}
+token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjgxYjUyMjFlN2E1ZGUwZTVhZjQ5N2UzNzVhNzRiMDZkODJiYTc4OGIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGVzdC0xMTcxNCIsImF1ZCI6InRlc3QtMTE3MTQiLCJhdXRoX3RpbWUiOjE3MzgxNjcyMDUsInVzZXJfaWQiOiJ1UkFvTGwyZzBYTzdPU0I4cDJyc256d2lGZG8xIiwic3ViIjoidVJBb0xsMmcwWE83T1NCOHAycnNuendpRmRvMSIsImlhdCI6MTczODE2NzIwNSwiZXhwIjoxNzM4MTcwODA1LCJlbWFpbCI6Im1pb3JhQGV4YW1wbGUuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbIm1pb3JhQGV4YW1wbGUuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.FjmIUAZM2NL22zX-fWEs_7sX5tPguxTqQXu3WWjWV48Xz0AezyZbbpaSIgfWBDlrdqxIVf00ZneWmEHZ9-WtN9cZrWziY7DhOFYBOr48ejVnO_w-LuR8UopMlUd0ESHGdaxWHwJj_RkZE-8Rg8O2Kq5v1J09Uj_hR4vd-YL1rMDBvkKv-E4AmrqyiZLYGyXXpHuBapEx4-wj5ajVwz693FH12U4NDXQtUPIQ41pq-Pr8Cx4AhDWMYLSIDx1MeZ0f7piz6oXrR0WCZgQ98h65Hbz31m3RNwMH5Bw4BJ9J9JYZK6R0deyLxJPB-wsxKjLDqsqShntlKr1e2LlgN-P77g
+{
+    "email": "mitia@example.com",
+    "password": "password"
+}
+
